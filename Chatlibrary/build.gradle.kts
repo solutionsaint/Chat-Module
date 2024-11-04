@@ -36,7 +36,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }
 
@@ -81,7 +81,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.solutionsaint"
                 artifactId = "chat-module"
-                version = "1.0.5"
+                version = "1.0.6"
             }
         }
     }
