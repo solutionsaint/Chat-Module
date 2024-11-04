@@ -81,7 +81,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.solutionsaint"
                 artifactId = "chat-module"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
